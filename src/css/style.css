@@ -1,52 +1,89 @@
-
-body{
-    padding: 20px;
-    margin: 50px;
-    color: white;
-    background: conic-gradient(black 0%,#142157 25% ,#2898ee 50%,#15297c 75%,black 100%);
+/* se importa para el uso de icon de boostrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-nav{
-    text-align: center;
+body{
+    /* padding: 20px;
+    margin: 50px; */
+    color: white;
+    background: linear-gradient(#a7bfc7 0%,#a7bfc7 25% ,#87a1ab 50%,#547071 75%,#c8dfe2 100%);
+}
+
+/* estilos header y navbar */
+header{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
 }
 
 .style-nav{
-    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
     padding: 20px;
+}
+
+.style-nav div a{
     color: white;
     transition: font-size 0.5s;
     cursor: pointer;
+    margin-right: 50px;
+    text-decoration: none;
 }
 
-.style-nav:hover{
-    font-size: 20px;
-    box-shadow: 0 0 15px rgba(255, 249, 249, 0.6);
+.style-nav div a:hover{
+    font-size: 1.2rem;
 }
 
+/* estilos seccion sobre mi-img */
 #seccion-img {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 50vh;
+    margin: 80px;
+    width: 80%;
 }
 
-#miFigcaption {
-    text-align: center;
-    margin-top: 60px;
-    
+.cont-medida{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    gap: 100px;
 }
-
-#perfil{
+.cont{
+    display: flex;
+    justify-content: start;
+}
+.cont img{
     width: 200px;
-    height: 300px;
-    mask-image: linear-gradient(black 80%, transparent);
-    
+    height: auto;
+    mask-image: linear-gradient(black 75%, transparent);
+    filter: drop-shadow(10px 10px 20px #c8dfe2);
+}
+
+.cont h1{
+    text-align: center;
 }
 
 .style-p{
-    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.cont-inf{
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 table {
@@ -57,8 +94,6 @@ table {
 footer{
     height: 80px;
     width: 100%;
-    margin: auto;
-    padding: auto;
     display: flex;
     justify-content: center;
     /* border: 5px groove black; */

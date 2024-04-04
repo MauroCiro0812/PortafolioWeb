@@ -4,43 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../PortafolioWeb/src/css/style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Portafolio</title>
 </head>
 
 <body>
     <header>
-        <section>
+        <section id="navbar">
             <nav>
-                <section>
-                    <a class="style-nav" href="./src/views/sobre_mi.html"> Conoce mas sobre mi</a>
+                <article class="style-nav">
+                    <div>
+                        <a href="./src/views/sobre_mi.html" aria-label="Icono ref"><i class="bi bi-person-raised-hand"></i> Conoce mas sobre mi</a>
 
-                    <a class="style-nav" href="./src/views/proyectos.html">Mis proyectos</a>
+                        <a href="./src/views/proyectos.html" arial-label="Icono ref"><i class="bi bi-file-code"></i> Mis proyectos</a>
 
-                    <a class="style-nav" href="./src/views/tecnologias.html">Hablilidades/Tecnologias</a>
+                        <a href="./src/views/tecnologias.html" aria-label="Icono ref"><i class="bi bi-card-list"></i> Hablilidades/Tecnologias</a>
 
-                    <a class="style-nav" href="./src/views/educacion.html">Formacion</a>
-                </section>
+                        <a href="./src/views/educacion.html" aria-label="Icono ref"><i class="bi bi-mortarboard"></i> Formacion</a>
+                    </div>
+                </article>
             </nav>
         </section>
     </header>
     <main>
         <section id="seccion-img">
-            <figure>
-                <figcaption id="miFigcaption"><h1>Mauricio Ciro Riaza</h1></figcaption>
-                <img id="perfil" src="../PortafolioWeb/public/img/mauro.png"
-                    alt="Foto de perfil">
-            </figure>
-        </section>
-        <section>
-            <p class="style-p">🌟 “En búsqueda constante de crecimiento y aprendizaje” 🌟
-
-                Soy una persona apasionada por el conocimiento y la superación personal. Si me preguntas algo y
-                no
-                tengo la respuesta, ten por seguro que investigaré hasta encontrar una solución. Mi objetivo es
-                inspirar y sacar lo mejor de cada persona que conozco. Juntos, podemos enfrentar cualquier
-                desafío y
-                lograr grandes cosas. ¡Hablemos y construyamos un mundo mejor! 🚀✨</p>
+            <div class="cont-medida">
+                <div class="cont">
+                    <figure>
+                        <img id="perfil" src="./public/img/mauro.png" alt="Foto de perfil">
+                            <h1>Mauricio Ciro Riaza</h1>
+                    </figure>
+                </div>
+                <div class="cont-inf">
+                    <p class="style-p">🌟 “En búsqueda constante de crecimiento y aprendizaje” 🌟
+    
+                        Soy una persona apasionada por el conocimiento y la superación personal. Si me preguntas algo y
+                        no
+                        tengo la respuesta, ten por seguro que investigaré hasta encontrar una solución. Mi objetivo es
+                        inspirar y sacar lo mejor de cada persona que conozco. Juntos, podemos enfrentar cualquier
+                        desafío y
+                        lograr grandes cosas. ¡Hablemos y construyamos un mundo mejor! 🚀✨</p>
+                </div>
+            </div>
         </section>
         <section>
             <table>
