@@ -10,7 +10,8 @@ body{
     /* padding: 20px;
     margin: 50px; */
     color: white;
-    background: linear-gradient(#a7bfc7 0%,#a7bfc7 25% ,#87a1ab 50%,#547071 75%,#c8dfe2 100%);
+    /* background: linear-gradient(#a7bfc7 0%,#a7bfc7 25% ,#87a1ab 50%,#547071 75%,#c8dfe2 100%); */
+    background-image: linear-gradient(to right bottom, #35b2be, #5abaa2, #8bbc86, #bbba76, #e7b47d);
 }
 
 /* estilos header y navbar */
@@ -65,7 +66,7 @@ header{
 .cont img{
     width: 200px;
     height: auto;
-    mask-image: linear-gradient(black 75%, transparent);
+    mask-image: linear-gradient(black 80%, transparent);
     filter: drop-shadow(10px 10px 20px #c8dfe2);
 }
 
@@ -89,6 +90,22 @@ header{
 table {
     display: flex;
     justify-content: center;
+}
+
+/* estilos boton de chat */
+.chat{
+    color: rgba(4, 196, 4, 0.699);
+    font-size: 3.5rem;
+    position: fixed;
+    top: 75%;
+    left: 93%;
+    z-index: 4;
+    text-decoration: none;
+
+}
+
+.chat:hover{
+    font-size: 4rem;
 }
 
 footer{
