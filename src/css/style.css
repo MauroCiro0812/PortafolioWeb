@@ -11,7 +11,7 @@ body{
     margin: 50px; */
     color: white;
     /* background: linear-gradient(#a7bfc7 0%,#a7bfc7 25% ,#87a1ab 50%,#547071 75%,#c8dfe2 100%); */
-    background-image: linear-gradient(to right bottom, #35b2be, #5abaa2, #8bbc86, #bbba76, #e7b47d);
+    background-image: linear-gradient(to right, #4cd1de, #7dccb9, #a1c3a4, #b7bba2, #bcb5ab);
 }
 
 /* estilos header y navbar */
@@ -26,7 +26,7 @@ header{
 
 .style-nav{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     /* margin: 20px; */
     padding: 20px;
@@ -112,28 +112,14 @@ footer{
     height: 80px;
     width: 100%;
     display: flex;
-    justify-content: center;
-    /* border: 5px groove black; */
-    /* background: conic-gradient(black,#142157 ,#2898ee,#15297c ); */
-    background: conic-gradient(black 0%,#142157 25% ,#2898ee 50%,#15297c 75%,black 100%);
+    justify-content: end;
+    align-items: center;
+    background-image: radial-gradient(circle, #2396a1, #249aa5, #259eaa, #25a3ae, #26a7b3);
 }
 
-.style-logos-footer{
-    margin-right: 40px;
-}
-
-#logo-foot1{
-    color: rgb(181, 38, 181);
-}
-
-#logo-foot2{
-    color: rgba(199, 180, 250, 0.803);
-}
-
-#logo-foot3{
-    color: rgb(246, 246, 246);
-}
-
-#logo-foot4{
-    color: rgb(23, 135, 34);
+.estilos-foot a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 1.5rem;
 }
